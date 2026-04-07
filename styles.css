@@ -67,10 +67,25 @@ body.dark {
   color: #eee;
 }
 
+.banner.dark .social-icon {
+  background-color: black;
+  color: black
 }
 
+.banner-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.banner-center {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .banner-right {
   display: flex;
   align-items: center;
   gap: 10px;
+}
 }
