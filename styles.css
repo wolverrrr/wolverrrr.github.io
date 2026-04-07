@@ -1,23 +1,39 @@
 h1 {
-  color: red;
+  color: #333333;
 }
 
-.profile-btn {
+img {
+  display: block;
+  width: fit-content;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Social Icons*/
+.social-icon {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 10px 20px;
-  background-color: #333;
-  color: white;
+  padding: 0px;
+  background-color: white;
+  line-height: 0;
   text-decoration: none;
-  border-radius: 6px;
-  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.2s;
 }
 
-.profile-btn:hover {
-  background-color: #555;
-  cursor: pointer;
+.social-icon:hover {
+  filter: brightness(0.75);
+  background: none;
+  background-color: none;
 }
+
+
+/* Body / Dark Mode*/
 
 body {
   background: #fff;
@@ -26,5 +42,5 @@ body {
 
 body.dark {
   background: #111;
-  color #eee;
+  color: #eee;
 }
