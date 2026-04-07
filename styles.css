@@ -21,6 +21,7 @@ img {
   border-radius: 5px;
   transition: 0.2s;
 
+  /*
 &.linkedin:hover {
     color: #333;
 }
@@ -28,7 +29,26 @@ img {
     color: white;
 }
 
+.banner.dark .social-icon {
+  background-color: black;
+  color: black
+}
+*/
 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 
@@ -67,11 +87,6 @@ body.dark {
   color: #eee;
 }
 
-.banner.dark .social-icon {
-  background-color: black;
-  color: black
-}
-
 .banner-left {
   display: flex;
   align-items: center;
@@ -87,5 +102,10 @@ body.dark {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.banner.dark .social-icon {
+  background-color: black;
+  color: black
 }
 }
