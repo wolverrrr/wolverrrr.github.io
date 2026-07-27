@@ -29,7 +29,7 @@ img {
     color: white;
 }
 
-.banner.dark .social-icon {
+.banner.dark.social-icon {
   background-color: black;
   color: black
 }
@@ -107,5 +107,9 @@ body.dark {
 .banner.dark .social-icon {
   background-color: black;
   color: black
+}
+
+.link-css {
+  
 }
 }
