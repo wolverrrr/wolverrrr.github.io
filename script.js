@@ -1,5 +1,5 @@
 const nav = document.getElementById('siteNav');
-const threshold = 60;
+const threshold = 64;
 let ticking = false;
 
 function updateNav() {
